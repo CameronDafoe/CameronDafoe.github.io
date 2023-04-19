@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+	<meta charset="utf-8">
+	<title> Final Project</title>
+	<!-- Cameron Dafoe, CSCE 102,  Section 15,  4/18/23 -->
+	<link rel="stylesheet" href="styles.css">
+	</head>
+<body>
+<div id="content">
+	<header>
+			<h1>Cameron Dafoe</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html"> Contact Me</a></li>
+		</ul>
+	</nav>
+	<main class="col-container">
+		<p>
+		<label for="question1">Why did I take this course?</label>
+		<br></br>
+		<select id="question1">
+			<option>-</option>
+			<option id="option1">To satisfy a major requirement.</option>
+			<option>Because I am going to major in computer science.</option>
+			<option>Because I needed extra credits.</option>
+			<option>Because I have a passion for computer science.</option>
+		</select>
+		</p>
+		<p>
+		<label for="question2">Who was my instructor?</label>
+		<br></br>
+		<select id="question2">
+			<option>-</option>
+			<option>Professor Jones</option>
+			<option>Professor Armstrong</option>
+			<option id="option2">Professor Plante</option>
+			<option>Coach Poppel</option>
+		</select>
+		</p>
+		<button onclick="showResults()">Submit</button>
+		<div id="resultDiv" class="hidden">
+		
+		</div>
+	</main>
+	<footer>
+		<p> &copy;Cameron</p>
+	</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

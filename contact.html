@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+	<meta charset="utf-8">
+	<title> Final Project</title>
+	<!-- Cameron Dafoe, CSCE 102,  Section 15,  4/18/23 -->
+	<link rel="stylesheet" href="styles.css">
+	</head>
+<body>
+<div id="content">
+	<header>
+			<h1>Cameron Dafoe</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html"> Contact Me</a></li>
+		</ul>
+	</nav>
+	<main class="col-container">
+		<section class="col-main">
+			<h3>Directions</h3>
+			<p><strong>Five Points</strong></p>
+			<p>830 Harden St</p>
+			<p>Columbia, SC 29205</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.654280277745!2d-81.01675509999997!3d34.00141279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8baccc359be1b%3A0x8d5ea1ac7e8ab133!2s830%20Harden%20St%2C%20Columbia%2C%20SC%2029205!5e0!3m2!1sen!2sus!4v1681839405553!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+		<section>
+			<h3>Contact Me</h3>
+			<form action="https://api.web3forms.com/submit" method="POST">
+				<input type="hidden" name="access_key" value="5b21fb84-2953-4a19-a45f-4674b3331b6e">
+				<label for="Name">Name:</label>
+				<br></br>
+				<input type="text" id="Name"name="name" required>
+				<br></br>
+				<label for="Email">Email:</label>
+				<br></br>
+				<input type="email" id="Email" name="email" required>
+				<br></br>
+				<label for="Message">Message:</label>
+				<br></br>
+				<textarea name="message" id="Message" required></textarea>
+				<input type="hidden" name="redirect" value="https://web3forms.com/success">
+				<br></br>
+				<button type="submit">Send</button>
+
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p> &copy;Cameron</p>
+	</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
